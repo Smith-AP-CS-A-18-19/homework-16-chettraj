@@ -6,6 +6,8 @@ public class Homework16 {
 	 * multiplication is repeated addition
 	 */
 	public static int problem1(int a, int b) {
+		/* When b == 0, you should return 0, not a
+		 */
 		if (a == 0 || b == 0){
 			return a;
 		}
